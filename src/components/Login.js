@@ -36,7 +36,7 @@ const Login = () => {
     // send http request
     sendRequest()
       .then(() => dispatch(authActions.login()))
-      .then(() => history("/user"));
+      .then(() => history("/books"));
   };
 
   return (
